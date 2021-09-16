@@ -1,7 +1,8 @@
+* {box-sizing: border-box;}
+
 body {
   font-family: 'Roboto Mono',monospace;
   min-height: 400px;
-  background-image: url('https://i.pinimg.com/originals/fd/17/70/fd1770053ea7a6d3a356b01713a29a3c.jpg');
   background-color: #000000;
   background-size: 100%;
   background-repeat: no-repeat;
@@ -11,16 +12,18 @@ body {
   text-align: center;
   padding: 20px;
   height: 100vh;
+  width: 80vw;
+  margin: auto;
 }
 
 .page-title {
   color:white;
-  margin: 0 0 5px;
+  margin: 0 0 1vw;
 } 
 
 .page-subtitle {
   color:white;
-  margin-top: 5px;
+  margin-top: 1vw;
 }
 
 .page-logo {
@@ -28,25 +31,27 @@ body {
 }
 
 .main-content {
+    width: 50rem;
+    max-width: 100%;
+    padding: 0 24px;
+    border: 5px solid yellow;
     margin: 0 auto;
-    width: fit-content;
-    padding: 3.5rem;
-    border: 10px solid yellow;
-    margin-top: 7rem;
 }
 
 .flex-container {
     display: flex;
+    width: 100%;
+    flex-flow: wrap;
     align-items: center;
     justify-content: center;
+    padding: 1vw;
 }
 
 .flex-itens {
-    margin: 0 0.5rem 0 0.5rem;
+    margin: 0 1vw 0 1vw;
 }
 
 .form-title {
-    margin-top: -0.5rem;
     color: yellow;
     font-size: 1.6rem;
 }
@@ -57,11 +62,9 @@ label {
 }
 
 input {
-  align-content: center;
   margin-top: 0.5rem;
+  width: 100%;
   border-radius: 0.25rem;
-  width: 180px;
-  height: 25px;
   border: 2px solid rgba(255, 255, 0, 0.315);
 }
 
