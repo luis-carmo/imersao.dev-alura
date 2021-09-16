@@ -1,0 +1,44 @@
+<html>
+  <head>
+    <title> Calculadora de Médias</title>
+
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./script.js"></script>
+  </head>
+  <body>
+        <div class="container">
+            <h1 class="page-title">
+            Calculadora de média</h1>
+            <p class="page-subtitle">
+            Descubra qual a sua média de nota de todas as provas!
+            </p>
+            <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="page-logo" alt=""><br><br>
+            <div class="main-content">
+                <h3 class="form-title">Insira suas notas aqui!</h3><br>
+                <div id="form" class="flex-container">
+                            <div class="flex-itens">
+                                <label for="nota-1">1º bimestre</lab><br>
+                                <input type="number" id="nota-1" min="0" max="10">
+                            </div>
+                            <div class="flex-itens">
+                                <label for="nota-2">2º bimestre</label><br>
+                                <input type="number" id="nota-2" min="0" max="10">
+                        </div>
+                            <div class="flex-itens">
+                                <label for="nota-3">3º bimestre</label><br>
+                                <input type="number" id="nota-3" min="0" max="10">
+                            </div>
+                            <div class="flex-itens">
+                                <label for="nota-4">4º bimestre</label><br>
+                                <input type="number" id="nota-4" min="0" max="10"><br>
+                            </div>
+                        </div>
+                    <button type="submit" onclick=calcularMedia()>Calcular média final</button><br><br>
+                    <h2 id="resultado"></h2>
+            </div>
+        </div>
+    <a href="https://alura.com.br/" target="_blank">
+    <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+    </a>
+  </body>
+</html>
