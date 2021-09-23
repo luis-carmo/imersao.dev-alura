@@ -40,13 +40,20 @@ body {
     text-shadow: 0 1px 1px #000000;
   }
   .page-content input {
-    padding:0.256rem;
+    padding:0.625rem;
     margin-top: 0.625rem;
   }
   .page-content button {
-    padding:0.256rem;
+    font-family: "Roboto Mono", monospace;
+    border: 0;
+    font-weight: bold;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #ffffff;
+    padding: 15px 20px;
     margin-top: 0.625rem;
     margin-bottom: 0.625rem;
+    background: red;
   }
 
   body > img {

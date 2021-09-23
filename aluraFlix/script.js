@@ -1,6 +1,5 @@
 var listCharacters = [];
 
-
 function addCharacter() {
   var characterLink = document.getElementById("link").value;
   listCharacters.push(characterLink);
