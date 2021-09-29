@@ -16,10 +16,6 @@ function characterOnScreen (characterLink) {
   var screen = document.getElementById("characterOnScreen")
   screen.innerHTML += "<img src=" + characterLink + ">";
 }
-
-
-
-
 // DESAFIO 1: Criar um botão para remover um filme da lista.
 // DESAFIO 2: Colocar na tela o nome do filme, juntamente com o poster.
 // DESAFIO 3: Além de fazer os filmes aparecerem na tela, guardá-los em uma lista. 
