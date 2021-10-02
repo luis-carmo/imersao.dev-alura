@@ -47,12 +47,11 @@ body {
 .portfolio {
     margin-top: 64px;
     display: grid;
-    grid-template-columns: 2fr 1fr;
     gap: 16px;
   }
 .projetos {
   margin-top: 1rem;
-  max-height: 300px;
+  max-height: 500px;
   overflow-y: scroll;
   scrollbar-width: thin;
   display: flex;
@@ -83,7 +82,7 @@ body {
   margin: 2rem;
 }
 .projetos-item{
-  margin: 4rem;
+    margin: 4rem;
 }
 .projetos-item {
   font-weight: 400;
